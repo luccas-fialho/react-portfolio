@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -7,6 +8,7 @@ function App() {
     <div className="bg-slate-950 text-slate-100 selection:bg-fuchsia-500/30">
       <Navbar />
       <Hero />
+      <About />
       <Projects />
     </div>
   );

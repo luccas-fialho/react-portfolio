@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden ">
+    <section className="relative overflow-hidden">
       <div className="flex flex-col justify-center mx-auto max-w-6xl px-4 py-20 relative h-dvh">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -11,7 +11,7 @@ function Hero() {
           className="text-6xl font-extrabold"
         >
           Hi! I'm{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-400 to-violet-300">
+          <span className="bg-clip-text text-transparent bg-linear-to-r from-fuchsia-400 to-violet-300">
             Luccas Fialho
           </span>
         </motion.h1>
@@ -22,7 +22,7 @@ function Hero() {
           className="mt-4 text-slate-300 max-w-2xl"
         >
           I'm a frontend developer based in Curitiba, Paraná - Brazil, I'll help
-          ou build beaultiful websites your users will love.
+          you build beautiful websites your users will love.
         </motion.p>
 
         <motion.div

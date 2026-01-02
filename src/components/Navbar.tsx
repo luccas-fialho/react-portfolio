@@ -5,13 +5,14 @@ const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#projects", label: "Projects" },
   { href: "#about", label: "About" },
+  { href: "#contact", label: "Contact" },
 ];
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <header className="bg-slate-950 sticky top-0 z-40 border-b border-white/5">
-      <div className="mx-auto max-w-6xl p-4 flex items-center justify-between text-2xl">
+      <div className="mx-auto max-w-6xl p-4 flex items-center justify-between text-xl">
         <a href="#" className="flex items-center gap-2">
           <span className="font-bold tracking-tight">My portfolio</span>
         </a>
@@ -42,7 +43,7 @@ function Navbar() {
             <div className="fixed right-0 top-0 h-full w-80 bg-slate-900 border-l border-white/10 p-6">
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold">My brand</span>
+                  <span className="font-semibold">My portfolio</span>
                 </div>
                 <button
                   className="p-2 rounded-lg"
