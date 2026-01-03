@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="mx-auto max-w-6xl flex items-center justify-between">
+    <div
+      id="about"
+      className="mx-auto max-w-6xl flex items-center justify-between mb-28 scroll-mt-24"
+    >
       <motion.div
         className="p-4"
         initial={{ opacity: 0, y: 40 }}
