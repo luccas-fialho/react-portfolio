@@ -12,7 +12,9 @@ function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-3xl">About me</p>
+        <p className="text-4xl">
+          About me<span className="text-fuchsia-500">.</span>
+        </p>
         <p className="mt-4">
           I'm Luccas Fialho, a Web Developer Intern at Simoldes Plásticos,
           currently working with Full Stack development. My role involves

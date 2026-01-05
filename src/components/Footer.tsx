@@ -47,7 +47,11 @@ function Footer() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <p className="">
-            Made with ❤️ by Luccas Fialho &copy; {new Date().getFullYear()}
+            Made with ❤️ by{" "}
+            <a href="#" className="hover:text-fuchsia-300">
+              Luccas Fialho
+            </a>{" "}
+            &copy; {new Date().getFullYear()}
           </p>
         </div>
       </motion.div>
