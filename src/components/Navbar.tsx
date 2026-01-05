@@ -57,7 +57,7 @@ function Navbar() {
                   <X className="size-5 cursor-pointer" />
                 </button>
               </div>
-              <div className="flex flex-col gap-4 bg-slate-900 p-4 w-90">
+              <div className="flex flex-col gap-4 bg-slate-900 p-4 w-full">
                 {navLinks.map((link) => (
                   <a
                     key={link.href}
